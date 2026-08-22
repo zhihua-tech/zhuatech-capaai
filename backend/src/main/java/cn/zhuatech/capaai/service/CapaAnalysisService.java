@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.capaai.service;
 import jakarta.validation.constraints.*; import org.springframework.stereotype.Service; import java.util.*;
 /** 对质量事件严重度、复发性和根因证据生成CAPA优先级建议。 */
