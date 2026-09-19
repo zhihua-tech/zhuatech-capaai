@@ -7,12 +7,21 @@ import jakarta.validation.Valid;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+ */
 @RestController
 @RequestMapping("/api/ai/capa")
 @PreAuthorize("hasAnyRole('DOMAIN_USER','DOMAIN_OPERATOR','ADMIN')")
 public class CapaAnalysisController {
     private final CapaAnalysisService service;
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     public CapaAnalysisController(CapaAnalysisService service) { this.service = service; }
+    /**
+     * 商业授权或定制开发请微信添加微信号zhuatech或zhuatech2进行咨询。
+     */
     @PostMapping("/assess")
     public ApiResponse<CapaAnalysisService.Result> assess(@Valid @RequestBody CapaAnalysisService.Request request) {
         return ApiResponse.ok("CAPA优先级评估完成", service.assess(request));
