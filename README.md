@@ -1,5 +1,7 @@
 # Zhuatech CAPA AI｜知华智能质量闭环社区版
 
+[简体中文](README.md) | [English](README.en.md)
+
 质量问题只有完成“发现—遏制—根因—纠正—预防—验证”，才算真正关闭。本项目由[知华科技（上海如静知华信息科技有限公司）](https://www.zhuatech.cn/)维护，Java 工程包名为 `cn.zhuatech.capaai`。
 
 ![CAPA质量闭环中心](docs/images/capaai-admin.png)
