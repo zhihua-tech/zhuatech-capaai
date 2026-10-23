@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: CAPA before-and-after effectiveness check
+
+Compares observed pre/post corrective-action defect rates against sample and improvement targets without claiming statistical causality or automatically closing cases. Signed-in users can edit inputs and export real computed results. See [API, examples and limitations](docs/AI_OPERATIONS_UPGRADE_20261023.md). No external model calls or automatic business changes; existing licensing and contacts remain unchanged.
+
 # ZhuaTech CAPA AI
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for enterprise AI-assisted workflows with human governance.
