@@ -1,0 +1,61 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "REVIEW",
+      "unverifiedActions": "#1"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "extensionApproved": "NO"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "verified": "5"
+    },
+    "expected": {
+      "decision": "PASS"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "repeatFindings": "1"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "implemented": "3"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "extendedUntil": "2026-10-19"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "extendedUntil": "2026-10-24"
+    },
+    "expected": {
+      "decision": "REVIEW",
+      "overdueOpen": "false"
+    },
+    "error": false
+  }
+]
